@@ -3,7 +3,7 @@
 
 const EventSource = require('eventsource');
 
-const HEROKU_APP_URL = 'https://devkit-test.herokuapp.com'; //INSERT YOUR ENDPOINT HERE
+const HEROKU_APP_URL = 'https://trash-see.herokuapp.com/'; //INSERT YOUR ENDPOINT HERE
 
 const endpoint = `${HEROKU_APP_URL}/eventsource`;
 const source = new EventSource(endpoint);
